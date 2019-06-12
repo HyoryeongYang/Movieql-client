@@ -8,7 +8,7 @@ const Home = () => (
 	if(loading) return "loading";
 	if(error) return "error";
 	return data.movies.map(movie =>(
-		<h2>
+		<h2 key = {movie.id} >
 			{movie.title} / {movie.rating}
 		</h2>
 	));
