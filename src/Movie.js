@@ -37,7 +37,7 @@ const Movie = ({id,title,rating,poster})=>(
 	</Link>
 );
 
-Movie.proptypes = {
+Movie.propTypes = {
 	id:PropTypes.number.isRequired,
 	title:PropTypes.string.isRequired,
 	rating:PropTypes.number.isRequired,
