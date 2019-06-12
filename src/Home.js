@@ -1,8 +1,6 @@
 import React from "react";
 import styled from 'styled-components';
 import {Query} from "react-apollo";
-import React from "react";
-import styled from "styled-components";
 import { Helmet } from "react-helmet";
 import { HOME_PAGE } from "./queries";
 import Movie from "./Movie";
