@@ -1,5 +1,5 @@
 import React from "react";
-import {Query} from 'react-apollo';
+import { Query } from "react-apollo";
 import { MOVIE_DETAILS } from "./queries";
 import { Helmet } from "react-helmet";
 import Movie from "./Movie";

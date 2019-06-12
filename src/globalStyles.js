@@ -16,5 +16,3 @@ injectGlobal`
     padding: 20px;
   }
 `;
-
-export default injectGlobal;
