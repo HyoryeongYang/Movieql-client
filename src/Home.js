@@ -13,7 +13,7 @@ const Container = styled.div`
   justify-items: center;
 `;
 
-const Home = () => (
+const Home = () => {
 	const {data, loading, error} = useQuery(HOME_PAGE);
 	return (
 		<Container>
@@ -33,6 +33,6 @@ const Home = () => (
 			))}
 		</Container>
 	);
-);
+};
 
 export default Home;
