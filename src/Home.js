@@ -9,7 +9,7 @@ const Home = () => (
 	if(error) return "error";
 	return data.movies.map(movie =>(
 		<h2>
-			{movies.title} / {movies.rating}
+			{movie.title} / {movie.rating}
 		</h2>
 	));
 }}
